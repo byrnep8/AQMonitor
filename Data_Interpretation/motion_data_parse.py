@@ -10,11 +10,6 @@ import sys
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
-#5
-# import sklearn.metrics as metrics
-# from sklearn.linear_model import LogisticRegression
-# from sklearn.preprocessing import StandardScaler
-# from sklearn.impute import SimpleImputer
 
 
 class MotionEnvParse:
@@ -344,10 +339,12 @@ class MotionEnvParse:
         self.aq_df['Mass Concentration PM1.0 Moving Average'] = self.aq_df['Mass Concentration PM1.0'].rolling(window=5, min_periods=1).mean()
         self.aq_df['Mass Concentration PM2.5 Moving Average'] = self.aq_df['Mass Concentration PM2.5'].rolling(window=5, min_periods=1).mean()
         self.aq_df['Mass Concentration PM10 Moving Average'] = self.aq_df['Mass Concentration PM10'].rolling(window=5, min_periods=1).mean()
-        self.motion_df = pd.DataFrame(self.motion_list, columns=['Time', 'Acc X', 'Acc Y', 'Acc Z','Acc X-1','Acc X-2','Acc X-3','Acc X-4','Acc X-5','Acc X-6','Acc X-7','Acc X-8','Acc X-9',
+        self.motion_df = pd.DataFrame(self.motion_list, columns=['Time', 'Acc X', 'Acc Y', 'Acc Z','Acc X-1','Acc X-2','Acc X-3','Acc X-4','Acc X-5','Acc X-6',
+                                                                 'Acc X-7','Acc X-8','Acc X-9',
                                                                  'Acc Y-1','Acc Y-2','Acc Y-3','Acc Y-4','Acc Y-5','Acc Y-6','Acc Y-7','Acc Y-8','Acc Y-9',
                                                                  'Acc Z-1','Acc Z-2','Acc Z-3','Acc Z-4','Acc Z-5','Acc Z-6','Acc Z-7','Acc Z-8','Acc Z-9',
-                                                                 'Gyr X','Gyr Y','Gyr Z', 'Gyr X-1','Gyr X-2','Gyr X-3','Gyr X-4','Gyr X-5','Gyr X-6','Gyr X-7','Gyr X-8','Gyr X-9',
+                                                                 'Gyr X','Gyr Y','Gyr Z', 'Gyr X-1','Gyr X-2','Gyr X-3','Gyr X-4','Gyr X-5','Gyr X-6','Gyr X-7',
+                                                                 'Gyr X-8','Gyr X-9',
                                                                   'Gyr Y-1','Gyr Y-2','Gyr Y-3','Gyr Y-4','Gyr Y-5','Gyr Y-6','Gyr Y-7','Gyr Y-8','Gyr Y-9',
                                                                   'Gyr Z-1','Gyr Z-2','Gyr Z-3','Gyr Z-4','Gyr Z-5','Gyr Z-6','Gyr Z-7','Gyr Z-8','Gyr Z-9',
                                                                  'Mag X', 'Mag Y', 'Mag Z'])
