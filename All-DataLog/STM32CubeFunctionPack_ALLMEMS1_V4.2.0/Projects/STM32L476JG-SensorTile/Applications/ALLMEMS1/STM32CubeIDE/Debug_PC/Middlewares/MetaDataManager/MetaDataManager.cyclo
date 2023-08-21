@@ -1,0 +1,11 @@
+MetaDataManager.c:505:13:PrintOut_MDM_LicenseStatus	2
+MetaDataManager.c:373:17:ReCallMetaDataManager	5
+MetaDataManager.c:524:13:PrintOut_MDM_GMDStatus	3
+MetaDataManager.c:450:6:ReseMetaDataManager	3
+MetaDataManager.c:476:10:EraseMetaDataManager	2
+MetaDataManager.c:489:6:SaveMetaDataManager	2
+MetaDataManager.c:96:6:InitMetaDataManager	33
+MetaDataManager.c:543:9:MDM_LicenseParsing	10
+MetaDataManager.c:612:10:MetaDataLicenseStatus	1
+MetaDataManager.c:623:10:MDM_SaveGMD	2
+MetaDataManager.c:644:10:MDM_ReCallGMD	2

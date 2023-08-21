@@ -1,0 +1,11 @@
+MotionTL_Manager.c:79:6:MotionTL_manager_run	1
+MotionTL_Manager.c:90:6:MotionTL_manager_getAngleMode	1
+MotionTL_Manager.c:102:6:MotionTL_manager_setAngleMode	1
+MotionTL_Manager.c:116:6:MotionTL_manager_get_version	1
+MotionTL_Manager.c:126:6:MotionTL_manager_calibratePosition	2
+MotionTL_Manager.c:141:18:MotionTL_manager_getCalibrationValues	1
+MotionTL_Manager.c:151:6:MotionTL_manager_setCalibrationValues	1
+MotionTL_Manager.c:161:6:MotionTL_manager_getEstimatedMeasTime	1
+MotionTL_Manager.c:171:9:MotionTL_manager_LoadCalValuesFromNVM	2
+MotionTL_Manager.c:47:6:MotionTL_manager_init	2
+MotionTL_Manager.c:192:9:MotionTL_manager_SaveCalValuesInNVM	2

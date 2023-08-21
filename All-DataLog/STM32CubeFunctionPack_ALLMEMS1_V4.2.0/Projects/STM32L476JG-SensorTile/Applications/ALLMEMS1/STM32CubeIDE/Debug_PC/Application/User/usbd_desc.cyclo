@@ -1,0 +1,9 @@
+usbd_desc.c:120:10:USBD_VCP_DeviceDescriptor	1
+usbd_desc.c:132:10:USBD_VCP_LangIDStrDescriptor	1
+usbd_desc.c:231:13:IntToUnicode	4
+usbd_desc.c:207:13:Get_SerialNum	2
+usbd_desc.c:168:10:USBD_VCP_SerialStrDescriptor	1
+usbd_desc.c:144:10:USBD_VCP_ProductStrDescriptor	1
+usbd_desc.c:156:10:USBD_VCP_ManufacturerStrDescriptor	1
+usbd_desc.c:184:10:USBD_VCP_ConfigStrDescriptor	1
+usbd_desc.c:196:10:USBD_VCP_InterfaceStrDescriptor	1

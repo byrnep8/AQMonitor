@@ -1,0 +1,12 @@
+MotionFX_Manager.c:62:6:MotionFX_manager_init	2
+MotionFX_Manager.c:112:6:MotionFX_manager_run	2
+MotionFX_Manager.c:130:6:MotionFX_manager_start_6X	1
+MotionFX_Manager.c:140:6:MotionFX_manager_stop_6X	1
+MotionFX_Manager.c:149:6:MotionFX_manager_start_9X	1
+MotionFX_Manager.c:158:6:MotionFX_manager_stop_9X	1
+MotionFX_Manager.c:168:15:MotionFX_manager_getDataOUT	1
+MotionFX_Manager.c:178:14:MotionFX_manager_getDataIN	1
+MotionFX_Manager.c:189:6:MotionFX_manager_get_version	1
+MotionFX_Manager.c:199:6:MotionFX_manager_MagCal_run	1
+MotionFX_Manager.c:211:6:MotionFX_manager_MagCal_start	1
+MotionFX_Manager.c:222:6:MotionFX_manager_MagCal_stop	1

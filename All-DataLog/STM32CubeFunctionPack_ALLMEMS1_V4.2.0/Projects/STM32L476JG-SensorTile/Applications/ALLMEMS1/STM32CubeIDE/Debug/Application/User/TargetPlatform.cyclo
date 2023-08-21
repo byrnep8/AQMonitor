@@ -1,0 +1,14 @@
+TargetPlatform.c:222:13:MX_GPIO_Init	1
+TargetPlatform.c:131:13:Init_MEM1_Sensors	5
+TargetPlatform.c:184:13:Enable_MEM1_Sensors	10
+TargetPlatform.c:243:13:Init_MEMS_Mics	3
+TargetPlatform.c:71:6:InitTargetPlatform	2
+TargetPlatform.c:284:6:InitMics	1
+TargetPlatform.c:294:6:DeInitMics	3
+TargetPlatform.c:326:6:LedOnTargetPlatform	1
+TargetPlatform.c:337:6:LedOffTargetPlatform	1
+TargetPlatform.c:347:6:LedToggleTargetPlatform	1
+TargetPlatform.c:393:10:UserFunctionForSavingFlash	3
+TargetPlatform.c:427:10:GetPage	3
+TargetPlatform.c:450:10:GetBank	6
+TargetPlatform.c:357:10:UserFunctionForErasingFlash	2
